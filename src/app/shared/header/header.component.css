@@ -1,0 +1,27 @@
+nav {
+  background: linear-gradient(to right, #09c, rgb(64, 81, 153));
+  color: #fff;
+}
+.content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0;
+}
+.content .logo {
+  font-weight: bold;
+  cursor: pointer;
+}
+.content ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  width: 20%;
+  margin: 0;
+}
+.content ul li {
+  cursor: pointer;
+  font-size: 22px;
+  color: #fff;
+  text-decoration: none;
+}
